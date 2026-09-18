@@ -124,7 +124,7 @@ cd xai-dr-screening
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
-pip install torch torchvision timm scikit-learn joblib matplotlib pillow numpy requests
+pip install torch torchvision timm scikit-learn joblib matplotlib pillow numpy requests pandas
 ```
 
 > Pin `torch`/`torchvision` to the build matching your CUDA version — see the
